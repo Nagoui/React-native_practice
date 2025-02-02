@@ -5,7 +5,7 @@ const App=()=>{
   return(
     <View>
       <Text style={{fontSize:30}}>React Native Mobile App Development</Text>
-      <Text style={{fontSize30}}>Ritesh Kumar Bharti</Text>
+      <Text style={{fontSize:30}}>Ritesh Kumar Bharti</Text>
 
       <Button title='Press Here'/>
     </View>
