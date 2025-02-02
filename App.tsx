@@ -1,15 +1,9 @@
-import React from 'react';
-import {Button,Text,View} from 'react-native';
+import { View, Text } from 'react-native'
+import React from 'react'
+import FirstJSX from './src/Components/FirstJSX'
 
-const App=()=>{
-  return(
-    <View>
-      <Text style={{fontSize:30}}>React Native Mobile App Development</Text>
-      <Text style={{fontSize:30}}>Ritesh Kumar Bharti</Text>
-
-      <Button title='Press Here'/>
-    </View>
+export default function App() {
+  return (
+    <FirstJSX/>
   )
 }
-
-export default App;
